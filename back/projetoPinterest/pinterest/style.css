@@ -1,0 +1,56 @@
+body{
+    width: 100vw;
+    height: 500vh;
+}
+.tela1 {
+    height: 100vh;
+}
+
+.tela2 {
+    height: 100vh;
+}
+
+.tela3 {
+    height: 100vh;
+}
+
+.tela4 {
+    height: 100vh;
+}
+
+.tela5 {
+    height: 100vh;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.cabecalho p{
+    padding: 5px;
+}
+.subItens{
+    display: flex;
+    align-items: center;
+}
+.btns{
+    padding-left: 8vw;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+#btnEntrar{
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+}
+#btnCriar{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}

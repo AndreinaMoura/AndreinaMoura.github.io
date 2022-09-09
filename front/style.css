@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 150vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, red, blue) border-box; 
+    color: white;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.textinho {
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    width: 20vw;
+    margin: 5px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+}
+.cad {
+    margin:auto;
+    height:40px;
+    width:130px;
+    border-radius:4px;
+    text-align: center;
+    display: table;
+    font-size:1em;
+    background: -webkit-linear-gradient(left, #fff 50%, transparent 50%), 
+    -webkit-linear-gradient(left, #fff 50%, transparent 50%), 
+    -webkit-linear-gradient(top, #fff 50%, transparent 50%), 
+    -webkit-linear-gradient(top, #fff 50%, transparent 50%);
+  }
+  .cad a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration:none;
+  }
+  .cad {
+    background-size: 12px 2px, 12px 2px, 2px 12px, 2px 12px;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-position: 0 0, left bottom, 0 0, right 0;
+  }
+  .cad:hover {
+    -webkit-animation: anima-borda 10s linear infinite;
+            animation: anima-borda 10s linear infinite;
+  }
+  @-webkit-keyframes anima-borda {
+    0% {
+      background-position: 0 0, left bottom, 0 0, right 0;
+    }
+    100% {
+      background-position: 1000px 0, -1000px bottom, 0 -1000px, right 1000px;
+    }
+  }
+  @keyframes animaborda {
+    0% {
+      background-position: 0 0, left bottom, 0 0, right 0;
+    }
+    100% {
+      background-position: 1000px 0, -1000px bottom, 0 -1000px, right 1000px;
+    }
+  }
+  h2{
+    text-align: center;
+    margin: 10px;
+  }
+  .model{
+    display: none;
+    visibility: hidden;
+  }

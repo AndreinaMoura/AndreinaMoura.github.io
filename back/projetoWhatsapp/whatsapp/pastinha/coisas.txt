@@ -1,0 +1,331 @@
+ <!-- <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Amigo ta tudo bem?</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Deixa de ser reptiliano</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>Como beber água?</span>
+                        </div>
+                        <div class="visto">
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>O que? tá tudo bem?</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
+                                kskkskkskkksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
+                                kskkskkskkksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>eu tento kskkskskksksksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:39</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Amigo ta tudo bem?</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Deixa de ser reptiliano</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>Como beber água?</span>
+                        </div>
+                        <div class="visto">
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>O que? tá tudo bem?</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
+                                kskkskkskkksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
+                                kskkskkskkksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>eu tento kskkskskksksksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:39</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Amigo ta tudo bem?</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Deixa de ser reptiliano</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>Como beber água?</span>
+                        </div>
+                        <div class="visto">
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>O que? tá tudo bem?</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
+                                kskkskkskkksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
+                                kskkskkskkksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>18:16</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="text1">
+                    <div>
+                        <div>
+                            <span>eu tento kskkskskksksksk</span>
+                        </div>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:39</span>
+                            <img src="img/img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Amigo ta tudo bem?</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c1">
+                <div class="text">
+                    <div>
+                        <span>Deixa de ser reptiliano</span>
+                    </div>
+                    <div class="visto">
+                        <div>
+                            <span>19:36</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>-->
+
+        
