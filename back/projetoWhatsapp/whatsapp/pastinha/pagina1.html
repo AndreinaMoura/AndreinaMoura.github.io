@@ -5,446 +5,344 @@
     <meta charset="UTF-8">
     <title>WhatsApp</title>
     <link rel="icon" type="imagem/png" href="img/logo.png" />
-    <link rel="stylesheet" href="style.css">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body onLoad="ctt()">
-
-    <header>
-        <nav class="navzinho">
-            <div>
-                <img src="img/perfil.jpg" class="imagem">
-            </div>
-            <div id="aa">
-                <div>
-                    <img src="img/status.png">
-                </div>
-                <div>
-                    <img src="img/mensagem.png">
-                </div>
-                <div>
-                    <img src="img/tresPontos.png">
-                </div>
-            </div>
-        </nav>
-        <div class="linhazinha">
-            <div class="textinho">
-                <img src="img/lupa.png" id="lupa">
-                <input type="text" class="inputzinho" placeholder="Pesquisar ou começar uma nova conversa">
-            </div>
-        </div>
-        <div id="principal">
-            <div class="modelo">
-                <div class="bloco">
-                    <div class="tm">
-                        <img class="imagem" src="">
+<body>
+    <div class="container-fluid">
+        <div id="r" class="row">
+            <div id="fundoL"  class="col-lg-2"></div>
+            <div id="fundo1" class="col-lg-2 col-4">
+                <nav class="navzinho ">
+                    <div class="m-auto">
+                        <img src="img/perfil.jpg" class="imagem me-5"></img>
                     </div>
-                    <div class="nome" onClick="clickName()">
-                        <div class="nome2">
-                            <span id="nome" title="Alguém"></span>
-                            <div class="hora"></div>
+                    <div id="aa" class="m-auto">
+                        <div class="m-auto">
+                            <img src="img/status.png"></img>
                         </div>
-                        <div>
-                            <img src="" class="visu">
-                            <span class="ms"></span>
+                        <div class="m-auto">
+                            <img src="img/mensagem.png"></img>
+                        </div>
+                        <div class="m-auto">
+                            <img src="img/tresPontos.png"></img>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main class="man">
-        <!-- <div class="modelo"> -->
-        <div class="navin">
-            <div class="ct">
-                <img class="imagem" id="foto" src="">
-                <span class="ctNome"></span>
-            </div>
-            <div>
-                <img src="img/lupa.png">
-            </div>
-        </div>
-        <div class="corpinho">
-
-            <div class="c2">
-                <div class="text1">
-                    <div>
-                        <div>
-                            <span class="mtext">Como beber água?</span>
+                </nav>
+                <div id="fundo3">
+                    <div class="linhazinha">
+                        <div class="textinho m-auto">
+                            <img src="img/lupa.png" style="border-radius: 0.35rem;"></img>
+                            <input type="text" class="inputzinho" placeholder="Pesquisar ou começar uma nova conversa">
                         </div>
                     </div>
-                    <div class="visto">
-                        <div>
-                            <span class="mhora">19:39</span>
-                            <img src="img/img2.png">
+                    <main class="col-12">
+                        <div class="bloco">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://64.media.tumblr.com/4666c0c353577240d4c78c873b79a5b0/57f9c77312a6ba1f-94/s1280x1920/7525239899b3b6ab05dcf3f9d2d3bc82868945a6.jpg">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Aaaaaaa">Gojo</span>
+                                    <div class="horaV">16:06</div>
+                                </div>
+                                <div class="coisinha">
+                                    <span>Eiiiii</span>
+                                    <div class="bolinhaV">32</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocoA">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://i.pinimg.com/564x/1e/75/03/1e7503963b53dceb3917e90c1aba5389.jpg">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Alguém">Tornado</span>
+                                    <div class="hora">16:06</div>
+                                </div>
+                                <div>
+                                    <img src="img/img4.png">
+                                    mensagem
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://i.pinimg.com/736x/82/ff/f2/82fff2b55ff0d748206cbdf5e6ad526e.jpg">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Alguém">Rysand</span>
+                                    <div class="hora">16:06</div>
+                                </div>
+                                <div>
+                                    <img src="img/img4.png">
+                                    mensagem
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://i.pinimg.com/originals/11/6c/c8/116cc80b199e5f49f787adf3156a7fad.jpg">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Alguém">Mor</span>
+                                    <div class="hora">16:06</div>
+                                </div>
+                                <div>
+                                    <img src="img/img4.png">
+                                    mensagem
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://i.pinimg.com/originals/d3/b7/40/d3b740a5f89a9dc613291d6af436304b.jpg">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Alguém">Aelin</span>
+                                    <div class="hora">16:06</div>
+                                </div>
+                                <div>
+                                    <img src="img/img4.png">
+                                    mensagem
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95568d85-3ba8-45a1-8033-bc78515bb215/deo4n5u-3c5c6034-43da-4d98-8320-44408534a234.jpg/v1/fill/w_751,h_1063,q_70,strp/azriel_acotar_fanart_by_mdonaflor_deo4n5u-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcLzk1NTY4ZDg1LTNiYTgtNDVhMS04MDMzLWJjNzg1MTViYjIxNVwvZGVvNG41dS0zYzVjNjAzNC00M2RhLTRkOTgtODMyMC00NDQwODUzNGEyMzQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.erqXsqdlUbxkccHW_JkAJjuzMAfQl6J4-qWJWLfhZJk">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Alguém">Azriel</span>
+                                    <div class="hora">16:06</div>
+                                </div>
+                                <div>
+                                    <img src="img/img4.png">
+                                    mensagem
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8a2d9d7d-044d-41c0-855a-f67ccc22f2d1/de43x4s-2b396bf7-ef80-4c12-a290-eeb0b7c73480.jpg/v1/fill/w_1024,h_1280,q_75,strp/inej_ghafa_by_saracia_de43x4s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzhhMmQ5ZDdkLTA0NGQtNDFjMC04NTVhLWY2N2NjYzIyZjJkMVwvZGU0M3g0cy0yYjM5NmJmNy1lZjgwLTRjMTItYTI5MC1lZWIwYjdjNzM0ODAuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6fRzTH5GH6b7vje_-Qs8_SZa1u8Cg0ZCpEdAqtzi5Rc">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Alguém">Inej</span>
+                                    <div class="hora">16:06</div>
+                                </div>
+                                <div>
+                                    <img src="img/img4.png">
+                                    mensagem
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <div>
+                                <img class="imagem m-1"
+                                    src="https://i.pinimg.com/originals/60/85/a4/6085a4c4a220506df8c8f4631592fb1a.jpg">
+                            </div>
+                            <div class="nome">
+                                <div class="nome2">
+                                    <span title="Alguém">Nico di angelo</span>
+                                    <div class="hora">16:06</div>
+                                </div>
+                                <div>
+                                    <img src="img/img4.png">
+                                    mensagem
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+            <div class="col-6">
+
+                <nav  id="fundo2" class="nav">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item m-auto">
+                            <img class="imagem me-1"
+                                src="https://i.pinimg.com/564x/1e/75/03/1e7503963b53dceb3917e90c1aba5389.jpg">
+                        </li>
+                        <li class="nav-item m-auto">
+                            <label for="nome" class="form-label">Tornado</label>
+                        </li>
+                        <li class="nav-item me-5 ms-5"></li>
+                        <li class="nav-item me-5 ms-5"></li>
+                        <li class="nav-item me-5 ms-5"></li>
+
+
+                        <li class="nav-item m-auto">
+                            <img src="img/lupa.png"></img>
+                        </li>
+                    </ul>
+                </nav>
+                <main class="man" id="fundo4">
+
+                    <div class="c1">
+                        <div class="text1">
+                            <div>
+                                <div>
+                                    <span>Como beber água?</span>
+                                </div>
+                            </div>
+                            <div class="visto">
+                                <div>
+                                    <span>18:16</span>
+                                    <img src="img/img2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="c1">
+                        <div class="text">
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>O que? tá tudo bem?</span>
+                                        </div>
+                                        <div class="visto">
+                                            <div class="j1" data-testid="msg-meta" role="button">
+                                                <span class="k1" dir="auto">18:16</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="c1">
+                        <div class="text1">
+                            <div>
+                                <div>
+                                    <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
+                                        kskkskkskkksk</span>
+                                </div>
+                            </div>
+                            <div class="visto">
+                                <div>
+                                    <span>18:16</span>
+                                    <img src="img/img2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c1">
+                        <div class="text1">
+                            <div>
+                                <div>
+                                    <span>eu tento kskkskskksksksk</span>
+                                </div>
+                            </div>
+                            <div class="visto">
+                                <div>
+                                    <span>19:39</span>
+                                    <img src="img/img2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="c1">
+                        <div class="text">
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>Amigo ta tudo bem?</span>
+                                        </div>
+                                        <div class="visto">
+                                            <div>
+                                                <span>19:36</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="c1">
+                        <div class="text">
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <span>Deixa de ser reptiliano</span>
+                                        </div>
+                                        <div class="visto">
+                                            <div>
+                                                <span>19:36</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="footer mt-4">
+                    <ul class="nav m-auto">
+                        <li class="nav-item m-auto">
+                            <img src="img/carinha.png"></img>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <img src="img/clipe.png"></img>
+                        </li>
+                        <li class="nav-item m-auto">
+                            <input type="text" class="algo" placeholder="Mensagem">
+                        </li>
+                        <li class="nav-item m-auto">
+                            <img src="img/voice.png"></img>
+                        </li>
+                    </ul>
+                </footer>
+                <center>
+                    <div class="btn-group m-2 " role="group" aria-label="Basic mixed stykles example">
+                        <!-- <button type="button" class="btn btn-warning" id="ah"  onclick="myFunction()" >Na média </button> -->
+                    </div>
+                </center>
+
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="mensagem" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="https://64.media.tumblr.com/4666c0c353577240d4c78c873b79a5b0/57f9c77312a6ba1f-94/s1280x1920/7525239899b3b6ab05dcf3f9d2d3bc82868945a6.jpg"
+                                width="80" class="rounded me-2" alt="">
+                            <strong class="me-auto">Gojo</strong>
+                            <small class="text-muted">Agora</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="close"></button>
+                        </div>
+                        <div class="toast-body">
+                            <p>Nova mensagem</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="c1">
-                <div class="text">
-                    <div>
-                        <span class="mtext">O que? tá tudo bem?</span>
-                    </div>
-                    <div class="visto">
-                        <div>
-                            <span class="mhora">18:16</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!-- </div> -->
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Amigo ta tudo bem?</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
+            <div id="fundoL"  class="col-lg-2"></div>
         </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Deixa de ser reptiliano</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>Como beber água?</span>
-                    </div>
-                    <div class="visto">
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>O que? tá tudo bem?</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
-                            kskkskkskkksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
-                            kskkskkskkksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>eu tento kskkskskksksksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:39</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Amigo ta tudo bem?</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Deixa de ser reptiliano</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>Como beber água?</span>
-                    </div>
-                    <div class="visto">
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>O que? tá tudo bem?</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
-                            kskkskkskkksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
-                            kskkskkskkksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>eu tento kskkskskksksksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:39</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Amigo ta tudo bem?</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Deixa de ser reptiliano</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>Como beber água?</span>
-                    </div>
-                    <div class="visto">
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>O que? tá tudo bem?</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
-                            kskkskkskkksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>ainda tenho q arrumar pq o bagulho verde fica do lado direto
-                            kskkskkskkksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>18:16</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="c2">
-            <div class="text1">
-                <div>
-                    <div>
-                        <span>eu tento kskkskskksksksk</span>
-                    </div>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:39</span>
-                        <img src="img/img2.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Amigo ta tudo bem?</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="c1">
-            <div class="text">
-                <div>
-                    <span>Deixa de ser reptiliano</span>
-                </div>
-                <div class="visto">
-                    <div>
-                        <span>19:36</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="footer">
-            <div class="nav">
-                <div class="nav-item">
-                    <img src="img/carinha.png">
-                </div>
-                <div class="nav-item">
-                    <img src="img/clipe.png">
-                </div>
-                <div class="nav-item">
-                    <input type="text" class="algo" id="submit" placeholder="Mensagem">
-                </div>
-                <div class="nav-item">
-                    <img src="img/voice.png">
-                </div>
-            </div>
-        </div>
-        <!-- </div> -->
-    </main>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 <script src="./js/js.js"></script>
+
 
 </html>
