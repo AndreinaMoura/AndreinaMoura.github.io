@@ -74,17 +74,25 @@
     </main>
     </div>
     <h2>Projetos</h2>
-    <div class="box">
+    <!-- <div class="box">
         <div class="cad"><a onClick="projeto1()" href="">Projeto 1</a></div>
         <div class="cad"><a onClick="projeto2()" href="../back/projetoWhatsapp/whatsapp/pastinha/pagina1.html">Projeto
                 2</a></div>
         <div class="cad"><a onClick="projeto3()" href="../back/projetoPinterest/pinterest/home.html">Projeto 3</a></div>
         <div class="cad"><a onClick="projeto4()"
                 href="../back/projetoJava/projeto/ProjetoMercado/bin/visao/LoginForm.class">Projeto 4</a></div>
+    </div> -->
+    <div class="box">
+        <div class="cad"><a onClick="projeto1()" ondblClick="fechaProjeto()">Projeto 1</a></div>
+        <div class="cad"><a onClick="projeto2()" ondblClick="fechaProjeto()">Projeto
+                2</a></div>
+        <div class="cad"><a onClick="projeto3()" ondblClick="fechaProjeto()">Projeto 3</a></div>
+        <div class="cad"><a onClick="projeto4()" ondblClick="fechaProjeto()">Projeto 4</a></div>
     </div>
-    <div class="model">
-        <p>Previw</p>
-        <div class="img"></div>
+    <div class="preview model">
+        <p id="preview"></p>
+        <p id="text"></p>
+        <img src="" alt="" id="imagens">
     </div>
 </body>
 <script src="script.js"></script>
