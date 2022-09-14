@@ -1,123 +1,121 @@
-var l
-var l2
-var l3
-var l4
-var l5
-var l6
-var l7
-var l8
-var l9
-var l10
-var l11
+var p = document.querySelector('#p')
+var p2 = document.querySelector('#p2')
+var p3 = document.querySelector('#p3')
+var p4 = document.querySelector('#p4')
+var p5 = document.querySelector('#p5')
+var p6 = document.querySelector('#p6')
+var p7 = document.querySelector('#p7')
+var p8 = document.querySelector('#p8')
+var p9 = document.querySelector('#p9')
+var p10 = document.querySelector('#p10')
+var p11 = document.querySelector('#p11')
+var p12 = document.querySelector('#p12')
+var p13 = document.querySelector('#p13')
+var p14 = document.querySelector('#p14')
+var p15 = document.querySelector('#p15')
+var p16 = document.querySelector('#p16')
+var p17 = document.querySelector('#p17')
+var p18 = document.querySelector('#p18')
+var p19 = document.querySelector('#p19')
+var p20 = document.querySelector('#p20')
 
-document.querySelector('#mat').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "Linguagem de programação: Java";
-    document.querySelector('#mat').appendChild(l)
+
+document.querySelector('#mat').addEventListener('mouseover', () => {
+    p.innerHTML = ""
+    p.innerHTML = "Linguagem de programação: Java";
+    document.querySelector('#c').append(p)
 })
 document.querySelector('#mat').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat').appendChild(l)
+    p.innerHTML = "";
+    document.querySelector('#c').append(p)
 })
-document.querySelector('#mat2').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "HTML";
-    l2 = document.createElement('p').innerHTML = "CSS";
-    document.querySelector('#mat2').append(l, l2)
+document.querySelector('#mat2').addEventListener('mouseover', () => {
+     p2.innerHTML = "";
+    p2.innerHTML = "HTML, CSS";
+    document.querySelector('#c2').append(p2)
 })
 document.querySelector('#mat2').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    l2 = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat2').append(l, l2)
+    p2.innerHTML = "";
+    document.querySelector('#c2').append(p2)
 })
-document.querySelector('#mat3').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "Formatação";
-    document.querySelector('#mat3').appendChild(l)
+document.querySelector('#mat3').addEventListener('mouseover', () => {
+    // p3.innerHTML = "";
+    p3.innerHTML = "Formatação";
+    document.querySelector('#c3').append(p3)
 })
 document.querySelector('#mat3').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat3').appendChild(l)
+    p3.innerHTML = "";
+    document.querySelector('#c3').append(p3)
 })
-document.querySelector('#mat4').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "Conceitos básicos";
-    document.querySelector('#mat4').appendChild(l)
+document.querySelector('#mat4').addEventListener('mouseover', () => {
+    // p4.innerHTML = "";
+    p4.innerHTML = "Conceitos básicos";
+    document.querySelector('#c4').append(p4)
 })
 document.querySelector('#mat4').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat4').appendChild(l)
+    p4.innerHTML = "";
+    document.querySelector('#c4').append(p4)
 
 })
-document.querySelector('#mat5').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "Linguagens"
-    l2 = document.createElement('p').innerHTML = "JavaScript(Framework NodeJS)"
-    l3 = document.createElement('p').innerHTML = "PHP"
-    l4 = document.createElement('p').innerHTML = "Java(JSP) Servlet(FrameWOrk Spring)"
-    document.querySelector('#mat5').appendChild(l, l2, l3, l4)
+document.querySelector('#mat5').addEventListener('mouseover', () => {
+    p5.innerHTML = "Linguagens"
+    p6.innerHTML = "JavaScript(Framework NodeJS)"
+    p7.innerHTML = "PHP"
+    p8.innerHTML = "Java(JSP) Servlet(FrameWork Spring)"
+    document.querySelector('#c5').append(p5,p6,p7,p8)
 })
 document.querySelector('#mat5').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    l2 = document.createElement('p').innerHTML = "";
-    l3 = document.createElement('p').innerHTML = "";
-    l4 = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat5').appendChild(l, l2, l3, l4)
+    p5.innerHTML = ""
+    p6.innerHTML = ""
+    p7.innerHTML = ""
+    p8.innerHTML = ""
+    document.querySelector('#c5').append(p5,p6,p7,p8)
 })
-document.querySelector('#mat6').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "Linguagens"
-    l2 = document.createElement('p').innerHTML = "JavaScript"
-    l3 = document.createElement('p').innerHTML = "Marcação HTML, CSS"
-    l4 = document.createElement('p').innerHTML = "Framework(React), (JQuery), (BootStrap)"
-    document.querySelector('#mat6').appendChild(l, l2, l3, l4)
+document.querySelector('#mat6').addEventListener('mouseover', () => {
+    p9.innerHTML = "Linguagens"
+    p10.innerHTML = "JavaScript"
+    p11.innerHTML = "Marcação HTML, CSS"
+    p12.innerHTML = "Framework(React), (JQuery), (BootStrap)"
+    document.querySelector('#c6').append(p9,p10,p11,p12)
 })
 document.querySelector('#mat6').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    l2 = document.createElement('p').innerHTML = "";
-    l3 = document.createElement('p').innerHTML = "";
-    l4 = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat6').appendChild(l, l2, l3, l4)
+    p9.innerHTML = "";
+    p10.innerHTML = "";
+    p11.innerHTML = "";
+    p12.innerHTML = "";
+    document.querySelector('#c6').append(p9,p10,p11,p12)
 })
-document.querySelector('#mat7').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "Linguagens"
-    l2 = document.createElement('p').innerHTML = "SQL"
-    l3 = document.createElement('p').innerHTML = "DDL"
-    l4 = document.createElement('p').innerHTML = "DML"
-    l5 = document.createElement('p').innerHTML = "DCL"
-    l6 = document.createElement('p').innerHTML = "DQL"
-    l7 = document.createElement('p').innerHTML = "DTL"
-    l8 = document.createElement('p').innerHTML = "Importação e exportação de dados"
-    l9 = document.createElement('p').innerHTML = "CSV"
-    l10 = document.createElement('p').innerHTML = "XML"
-    l11 = document.createElement('p').innerHTML = "JSON"
-    document.querySelector('#mat7').append(l, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11)
+document.querySelector('#mat7').addEventListener('mouseover', () => {
+    p13.innerHTML = "Linguagens"
+    p14.innerHTML = "SQL, DDL, DML, DCL, DQL, DTL"
+    p15.innerHTML = "Importação e exportação de dados"
+    p16.innerHTML = "CSV, XML, JSON"
+    document.querySelector('#c7').append(p13,p14,p15,p16)
 })
 document.querySelector('#mat7').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    l2 = document.createElement('p').innerHTML = "";
-    l3 = document.createElement('p').innerHTML = "";
-    l4 = document.createElement('p').innerHTML = "";
-    l5 = document.createElement('p').innerHTML = "";
-    l6 = document.createElement('p').innerHTML = "";
-    l7 = document.createElement('p').innerHTML = "";
-    l8 = document.createElement('p').innerHTML = "";
-    l9 = document.createElement('p').innerHTML = "";
-    l10 = document.createElement('p').innerHTML = "";
-    l11 = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat7').append(l, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11)
+    p13.innerHTML = ""
+    p14.innerHTML = ""
+    p15.innerHTML = ""
+    p16.innerHTML = ""
+    document.querySelector('#c7').append(p13,p14,p15,p16)
 })
-document.querySelector('#mat8').addEventListener('click', () => {
-    l = document.createElement('p').innerHTML = "Conceitos básicos";
-    l2 = document.createElement('p').innerHTML = "Linguagens"
-    l3 = document.createElement('p').innerHTML = "JavaScript"
-    l4 = document.createElement('p').innerHTML = "Framework(React Native, Expo)"
-    l5 = document.createElement('p').innerHTML = "Programação em Bloco MIT AppInventor"
-    document.querySelector('#mat8').append(l, l2, l3, l4, l5)
+document.querySelector('#mat8').addEventListener('mouseover', () => {
+    p17.innerHTML = "Linguagens"
+    p18.innerHTML = "JavaScript"
+    p19.innerHTML = "Framework(React Native, Expo)"
+    p20.innerHTML = "Programação em Bloco MIT AppInventor"
+    document.querySelector('#c8').append(p17,p18,p19,p20)
 })
 document.querySelector('#mat8').addEventListener('mouseout', () => {
-    l = document.createElement('p').innerHTML = "";
-    l2 = document.createElement('p').innerHTML = "";
-    l3 = document.createElement('p').innerHTML = "";
-    l4 = document.createElement('p').innerHTML = "";
-    l5 = document.createElement('p').innerHTML = "";
-    document.querySelector('#mat8').append(l, l2, l3, l4, l5)
+    p17.innerHTML = ""
+    p18.innerHTML = ""
+    p19.innerHTML = ""
+    p20.innerHTML = ""
+    document.querySelector('#c8').append(p17,p18,p19,p20)
 })
 var md = document.querySelector('model')
+
+
 function projeto1() {
 
     md.style.display = 'flex'
