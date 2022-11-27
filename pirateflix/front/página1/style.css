@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2e2e2e;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+main{
+    padding: 20px;
+    justify-content: center;
+}
+
+#imagem{
+    color:white;
+    cursor: pointer;
+    padding: 50px;
+}
+
+#coisa{
+    display: flex;
+    height: fit-content;
+}
+
+#add{
+    border: 1px solid yellow;
+}
+
+#buscar{
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: white;
+}
+
+.corpo{
+    padding: 50px;
+}
+
+.linha{
+    display: flex; 
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: start;
+}
+
+.linha2{
+    display: flex;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: start;
+}
+
+#gerenciar{
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: yellow;
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#img {
+    height: 50px;
+    display: flex;
+}
+
+.imagem{
+    background-image: url(https://www.intrinseca.com.br/blog/wp-content/uploads/2017/05/Wonder-Poster-664x1024.jpg);
+    height: 230px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #2e2e2e;
+    background-size:100% auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+  }
+  
+  .texto {
+    cursor: pointer;
+    background-image: url(../../back/docs/assets/play.png);
+    background-position: center;
+    opacity: 0;
+    background-size:20% auto;
+    background-repeat: no-repeat;
+    transition: opacity .2s linear;
+    background-color: yellow;
+    border-radius: 20px;
+    height: 230px;
+}
+
+  .imagem:hover .texto{
+    opacity:0.3;
+   }
+  
+   /* .c2{
+    background-image: url(https://seuladogeek.com.br/wp-content/uploads/2022/08/Filme-1917.jpg);
+    height: 230px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #2e2e2e;
+    background-size:100% auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+  }
+
+  .c2:hover .texto{
+    opacity:0.3;
+   }
+   .c3{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/58b866f417bffc4dc469acab/1609006238624-9CDIVFZTKYPKHB7H8C81/critica+o+ceu+da+meia+noite+netflix);
+    height: 230px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #2e2e2e;
+    background-size:100% auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+  }
+
+  .c3:hover .texto{
+    opacity:0.3;
+   }
+   .c4{
+    background-image: url(https://br.web.img3.acsta.net/pictures/22/01/13/10/10/2132032.jpg);
+    height: 230px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #2e2e2e;
+    background-size:100% auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+  }
+
+  .c4:hover .texto{
+    opacity:0.3;
+   }
+   .c5{
+    background-image: url(https://sm.ign.com/ign_br/screenshot/default/enola-1_ak39.jpg);
+    height: 230px;
+    width:200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #2e2e2e;
+    background-size:100% auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+  }
+
+  .c5:hover .texto{
+    opacity:0.3;
+   } */
