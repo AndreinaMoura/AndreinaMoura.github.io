@@ -1,20 +1,22 @@
-function carregar(){
-    fetch("http://localhoast:5500/pirateflix")
-    .then(response => {
-        return response.json();
-    })
-    .then((data) => {
-        data.forEach(cada => {
+var itemFilme = document.querySelector(".linha")
 
-            var divizinha = document.querySelector('header').cloneNode(true)
-            var novo = document.querySelector('.corpinho')
-
-            novo.classList.remove("modelo");
-
-            document.querySelector('.corpo').appendChild(novo)
-
-            // document.querySelector('#quaseCorpinho').appendChild(divizinha)
+function carregar() {
+    fetch("http://localhost:5500/pirateflix")
+        .then(response => {
+            return response.json();
         })
-    })
+        .then((data) => {
+            data.forEach(cada => {
 
+                let novoItem = itemFilme.cloneNode(true)
+
+                novoItem.classList.remove("modelo")
+
+                let imagem = novoItem.querySelector(".imagem")
+
+                imagem.src =  cada.imagem;
+
+                document.querySelector("main").appendChild(novoItem);
+            })
+        })
 }

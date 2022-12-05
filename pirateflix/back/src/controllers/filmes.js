@@ -13,7 +13,7 @@ const cadastrarfilme = (req, res) => {
 }
 
 const buscarAlgo = (req, res) => {
-    con.query(buscarAlgo(req.params), (err, result) => {
+    con.query(filme.buscarAlgo(req.params), (err, result) => {
         if (err == null)
             if (result.length > 0)
                 res.json(result).end();
@@ -25,7 +25,7 @@ const buscarAlgo = (req, res) => {
 }
 
 const excluirFilme = (req, res) => {
-    con.query(excluirFilme(req.params), (err, result) => {
+    con.query(filme.excluirFilme(req.params), (err, result) => {
         if (err == null)
             if (result.affectedRows > 0)
                 res.json("filme deletado").status(204).end();

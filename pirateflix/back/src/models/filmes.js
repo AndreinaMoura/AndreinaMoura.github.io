@@ -3,7 +3,7 @@ const buscarAlgo = (model) => {
 }
 
 const excluirFilme = (model) => {
-    return `DELETE FROM filmes WHERE id='${model.id}'`;
+    return `DELETE FROM filmes WHERE id=${model.id}`;
 }
 
 const novoFilme = (model) => {

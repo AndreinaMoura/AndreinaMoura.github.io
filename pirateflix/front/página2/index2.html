@@ -16,16 +16,15 @@
             <button id="add" onclick="abrirModal()">Adicionar Filme</button>
         </div>
     </header>
-    <main id="tudinho">
+    <main id="tudinho" onclick="fecharModal()">
         <div class="corpo modelo">
-            <img class="imagem" />
+            <img class="imagem"/>
             <div id="coisinhas">
                 <p id="nome"></p>
                 <p id="excluir" onclick="excluirFilme()">Excluir</p>
             </div>
         </div>
         <dialog>
-            <!-- <div class="coisadmais"> -->
             <div id="itens">
                 <input type="text" placeholder="Titulo">
                 <input type="text" placeholder="Ano de Lançamento">
@@ -34,7 +33,7 @@
             </div>
             <div class="coisa">
                 <button id="cancelar" onclick="fecharModal()">Cancelar</button>
-                <button id="cadastrar">Cadastrar</button>
+                <button id="cadastrar" onclick="fecharModal()">Cadastrar</button>
             </div>
         </dialog>
     </main>

@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-// const Carro = require("../controllers/CarrosController");
+const filme = require('../controllers/filmes');
 
-router.post("/pirateflix", novoFilme);
-router.get("/pirateflix/:titulo", buscarAlgo);
-router.delete("/pirateflix/:id", excluirFilme);
+router.post("/pirateflix", filme.cadastrarfilme);
+router.get("/pirateflix/:titulo", filme.buscarAlgo);
+router.delete("/pirateflix/:id", filme.excluirFilme);
 
 module.exports = router;

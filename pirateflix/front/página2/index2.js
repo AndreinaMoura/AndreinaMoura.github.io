@@ -21,7 +21,6 @@ function carregar() {
                 document.querySelector("main").appendChild(novoItem);
             })
         })
-
 }
 
 let modal = document.querySelector("dialog")

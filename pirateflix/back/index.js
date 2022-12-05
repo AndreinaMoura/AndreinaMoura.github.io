@@ -2,16 +2,19 @@ const express = require("express");
 const cors = require("cors");
 const mysql = require("mysql");
 
-const app = new express();
-app.use(express.json());
-app.use(cors());
+const filmes = require('../back/src/routes/filmes')
+
+const app = express()
+.use(express.json())
+.use(cors())
+.use(filmes)
 
 const con = mysql.createConnection({
     user: 'root',
     host: 'localhost',
     database: 'pirateflix'
 });
-app.get('/', (req, res) => {
+app.get('/pirateflix', (req, res) => {
     let string = "select * from filmes";
     con.query(string, (err, result) => {
         if (err == null) {
