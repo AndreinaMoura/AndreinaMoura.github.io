@@ -48,14 +48,26 @@ main {
     flex-wrap: wrap;
 }
 
-#gerenciar {
+#gerenciar:hover {
     border: 1px solid yellow;
     border-radius: 10px;
     background-color: yellow;
+    color: black;
     height: fit-content;
     padding: 10px;
     cursor: pointer;
     font-weight: bold;
+}
+
+#gerenciar {
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid yellow;
+    color: yellow;
+    border-radius: 10px;
+    background-color: #2e2e2e;
 }
 
 #img {
@@ -87,6 +99,17 @@ main {
 
 .texto:hover .imagem {
     opacity: 0.3;
+}
+
+.texto:hover #gerenciar {
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .coisinha {
