@@ -1,7 +1,7 @@
 var itemFilme = document.querySelector(".linha")
 
 function carregar() {
-    fetch("http://localhost:5500/pirateflix")
+    fetch("http://localhost:3000/pirateflix")
         .then(response => {
             return response.json();
         })

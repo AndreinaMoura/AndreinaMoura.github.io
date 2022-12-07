@@ -36,8 +36,18 @@ const excluirFilme = (req, res) => {
     });
 }
 
+const buscarFilmes = (req, res) => {
+    con.query(filme.buscarFilmes(), (err, result) => {
+        if (err == null)
+            res.json(result).end();
+        else
+            res.status(500).end();
+    });
+}
+
 module.exports = {
     cadastrarfilme,
     buscarAlgo,
-    excluirFilme
+    excluirFilme,
+    buscarFilmes
 }

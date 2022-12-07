@@ -1,17 +1,22 @@
 const buscarAlgo = (model) => {
-    return `SELECT * FROM filmes WHERE titulo like '%${model.titulo}%'`;
+    return `SELECT * FROM filmes WHERE titulo like '%${model.titulo}%';`;
 }
 
 const excluirFilme = (model) => {
-    return `DELETE FROM filmes WHERE id=${model.id}`;
+    return `DELETE FROM filmes WHERE id=${model.id};`;
 }
 
 const novoFilme = (model) => {
-    return `INSERT INTO filmes VALUES ('${model.titulo}','${model.lancamento}','${model.cartaz}','${model.imagem}')`;
+    return `INSERT INTO filmes VALUES ('${model.titulo}','${model.lancamento}','${model.cartaz}','${model.imagem}');`;
+}
+
+const buscarFilmes = (model) => {
+    return `SELECT * FROM filmes;`;
 }
 
 module.exports = {
     buscarAlgo,
     excluirFilme,
-    novoFilme
+    novoFilme,
+    buscarFilmes
 }

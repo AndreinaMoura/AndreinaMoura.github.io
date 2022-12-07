@@ -10,10 +10,10 @@ CREATE TABLE filmes(
     imagem VARCHAR(1000) NOT NULL
 );
 
-LOAD DATA INFILE 'C:\Users\Andreina\Desktop\pirateflix\back\docs\database\filmes.csv'
+LOAD DATA INFILE 'C:/Users/Andreina/Desktop/SENAI/AndreinaMoura.github.io/pirateflix/back/docs/database/filmes.csv'
 INTO TABLE filmes
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
+LINES TERMINATED BY '/r/n'
 IGNORE 1 ROWS;
 
