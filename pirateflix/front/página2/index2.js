@@ -39,7 +39,7 @@ cadastrar.addEventListener('click', () => {
         "cartaz": categoria.value,
         "imagem": cartaz.value
     }
-    alert(JSON.stringify(cad))
+    // alert(JSON.stringify(cad))
     fetch('http://localhost:3000/pirateflix', {
         "method": 'POST',
         "headers": {
