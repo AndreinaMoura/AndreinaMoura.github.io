@@ -13,7 +13,7 @@
     <header>
         <img id="img" src="../../back/docs/assets/logo.png" />
         <div id="coisa">
-            <button id="add" onclick="abrirModal()">Adicionar Filme</button>
+            <button id="add">Adicionar Filme</button>
         </div>
     </header>
     <main id="tudinho">
@@ -24,18 +24,18 @@
                 <p id="excluir" onclick="deletefilme(this)">Excluir</p>
             </div>
         </div>
-        <dialog method="POST">
-            <div id="itens">
-                <input type="text" id="titulo" placeholder="Titulo">
-                <input type="text" id="lancamento" placeholder="Ano de Lançamento">
-                <input type="text" id="categoria" placeholder="Categoria">
-                <input type="text" id="cartaz" placeholder="Cartaz">
-            </div>
-            <div class="coisa">
-                <button id="cancelar" onclick="fecharModal()">Cancelar</button>
-                <button id="cadastrar">Cadastrar</button>
-            </div>
-        </dialog>
+            <dialog>
+                <div id="itens">
+                    <input type="text" id="titulo" placeholder="Titulo">
+                    <input type="text" id="lancamento" placeholder="Ano de Lançamento">
+                    <input type="text" id="categoria" placeholder="Categoria">
+                    <input type="text" id="cartaz" placeholder="Cartaz">
+                </div>
+                <div class="coisa">
+                    <button id="cancelar" onclick="fecharModal()">Cancelar</button>
+                    <button id="cadastrar">Cadastrar</button>
+                </div>
+            </dialog>
     </main>
 <!-- <section id="table">
         <form method="POST">
